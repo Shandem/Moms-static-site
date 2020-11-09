@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.footer-container{
+    background: rgb(178,181,204);
+    background: linear-gradient(96deg, rgba(178,181,204,1) 0%, rgba(172,206,227,1) 72%);
+    display: flex;
+    flex-direction: row;
+    flex: left;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+    color: rgb(63, 58, 58);
+    transition: color 0.3s ease;
+
+    .company-name, .copyright{
+        font-size: 20px;
+    }
+
+    .copyright{
+        margin-left: 140px;
+    }
+
+    .advertise{
+        font-size: 15px;
+    }
+}
