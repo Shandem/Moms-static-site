@@ -11,7 +11,7 @@ const footer = () => {
             &copy;2020
             </div>
             <div className="advertise">
-               Web site Designed & Built w/React <br/> by Joshuah Gutierrez
+               Web site Designed & Built w/React <br/> <a href="https://www.joshuahgutierrez.com">by Joshuah Gutierrez</a> 
             </div>
             
         </div>
