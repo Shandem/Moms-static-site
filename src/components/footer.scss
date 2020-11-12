@@ -31,3 +31,31 @@
         }
     }
 }
+
+@media screen and (max-width: 850px) {
+
+  .footer-container{
+    width: 375px;
+    font-size: 10px;
+  }
+.company-name{
+    position: absolute;
+    margin-top: 15px;
+}
+.copyright{
+    margin-top: 15px;
+    margin-right: 50px;
+    position: absolute;
+}
+
+  .advertise{
+    font-size: 10px;
+    margin-left: 180px;
+    width: 150px;
+    a{
+        font-size: 15px;
+        text-decoration: none;
+    }
+  }
+
+}
