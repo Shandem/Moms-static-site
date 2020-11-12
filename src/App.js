@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      { routes }
+     
       <Welcome/>
-      <Index/>
+      { routes }
       <OrderForm/>
       <Footer/>
     </div>
