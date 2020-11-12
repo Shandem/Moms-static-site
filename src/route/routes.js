@@ -6,7 +6,7 @@ import index from '../components/index'
 
 export default (
     <Switch>
-        <Route exact path='/' component={ App } />
+        <Route exact path='/' component={ index } />
         <Route path='/index' component={ index } />
     </Switch>
 );
