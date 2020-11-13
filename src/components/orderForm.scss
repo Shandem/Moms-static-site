@@ -1,37 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
-.orderForm{
+.order-container{
+    display: flex;
+    flex-direction: row;
+    flex: left;
     margin: auto;
-    position: relative;
-    width: 500px;
-    margin-bottom: 70px;
-    margin-top: 30px;
-    box-shadow:  -1px 3px 3px 2px rgba(0,0,0,.25);
-    border: rgb(178,181,204) ridge 3px;
-    .contact-form{display: flex;
-        flex-direction: column;
-        width: 300px;
-        text-align: left;
+    width: 900px;
+    .orderForm{
         margin: auto;
-        padding: 20px;
-        textarea {
+        position: relative;
+        width: 500px;
+        margin-bottom: 70px;
+        margin-top: 30px;
+        box-shadow:  -1px 3px 3px 2px rgba(0,0,0,.25);
+        border: rgb(178,181,204) ridge 3px;
+        .contact-form{
+            display: flex;
+            flex-direction: column;
             width: 300px;
-            height: 150px;
-          }
-        .submit{
-            width: 200px;
-            margin-left: 50px;
-            font-size: 20px;
-            font-weight: 800;
-            border-radius: 15px;
-            background: rgb(172,227,210);
-            background: radial-gradient(circle, rgba(172,227,210,1) 0%, rgba(65,134,65,1) 72%);
-            font-family: 'Playfair Display', serif;
-           
+            text-align: left;
+            margin: auto;
+            padding: 20px;
+            textarea {
+                width: 300px;
+                height: 150px;
+            }
+            .submit{
+                width: 200px;
+                margin-left: 50px;
+                font-size: 20px;
+                font-weight: 800;
+                border-radius: 15px;
+                background: rgb(172,227,210);
+                background: radial-gradient(circle, rgba(172,227,210,1) 0%, rgba(65,134,65,1) 72%);
+                font-family: 'Playfair Display', serif;
+            
+            }
         }
     }
 }
-
 @media screen and (max-width: 850px) {
     .orderForm{
         margin-left: 30px;

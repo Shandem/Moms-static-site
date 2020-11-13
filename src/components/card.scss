@@ -3,8 +3,20 @@
     
     padding: 20px;
 
-    .description{
-        width: 200px;
-        margin: auto;
+    .info{
+        text-align: left;
+        width: 300px;
+        .dimensions{
+            span{
+                font-weight: 900;
+            }
+        }
+        .description{
+            
+            margin: auto;
+            span{
+                font-weight: 900;
+            }
+        }
     }
 }

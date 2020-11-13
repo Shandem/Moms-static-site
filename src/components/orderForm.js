@@ -20,13 +20,21 @@ const orderForm = () => {
 	}
 
       return (
-          <div className="orderForm">
-                <form className="contact-form" onSubmit={sendEmail}>
-                <input type="hidden" name="contact_number" />
-                <label>Message to Gaby</label>
-                <textarea name="message" />
-                <input className='submit' type="submit" value="Send" />
-                </form>
+          <div className='order-container'>
+          <div className="orderingInstructions">
+              <h3>
+                  Order Instructions
+              </h3>
+          </div>
+            <div className="orderForm">
+                
+                    <form className="contact-form" onSubmit={sendEmail}>
+                    <input type="hidden" name="contact_number" />
+                    <label>Use this to send Gaby an E-mail with your question or order</label>
+                    <textarea name="message" />
+                    <input className='submit' type="submit" value="Send" />
+                    </form>
+            </div>
         </div>
       );
 }

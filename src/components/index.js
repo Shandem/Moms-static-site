@@ -3,9 +3,10 @@ import './index.scss'
 import Card from './card'
 
 const index = () => {
+    const bra = <br></br>
     return (
         <div className='index-view'>
-                  <Card 
+            <Card 
                 img="group-shot.JPG" 
                 height="285px" 
                 width="260px"
@@ -66,7 +67,7 @@ const index = () => {
                 width="260px"
                 altName='Santas slegh'
                 price='$30'
-                dimensions='H 37in x W 16in   Stand 8in x 12in'
+                dimensions='H 37in x W 16in Stand 8in x 12in'
                 description='Santa holding a chalkboard Christmas countdown sign. He is crafted from 1/2in Pinewood'
                 />
                 <Card 
