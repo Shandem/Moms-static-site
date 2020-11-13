@@ -4,11 +4,15 @@
     margin: auto;
     position: relative;
     width: 500px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    box-shadow:  -1px 3px 3px 2px rgba(0,0,0,.25);
+    border: rgb(178,181,204) ridge 3px;
     .contact-form{display: flex;
         flex-direction: column;
         width: 300px;
         text-align: left;
+        margin: auto;
         textarea {
             width: 300px;
             height: 150px;
