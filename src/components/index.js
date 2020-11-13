@@ -38,7 +38,7 @@ const index = () => {
                 height="285px" 
                 width="260px"
                 altName='Santas slegh'
-                price='$130'
+                price='$160'
                 dimensions='H 34in x W 46in'
                 description='The word JOY w/ raised shadow depiction of the nativity'
                 />
@@ -112,7 +112,7 @@ const index = () => {
                 altName='Santas slegh'
                 price='$100'
                 dimensions='10ft X 10ft'
-                description='Its santas sligh with toys in it'
+                description='child depiction of the nativity'
                 />
         </div>
     );
