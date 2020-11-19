@@ -110,7 +110,7 @@ const index = () => {
                 img="Young-nativaty.jpeg" 
                 height="225px" 
                 width="290px"
-                altName='Santas slegh'
+                altName='Young nativity'
                 price='$100'
                 dimensions='10ft X 10ft'
                 description='child depiction of the nativity'
