@@ -3,7 +3,7 @@ import './index.scss'
 import Card from './card'
 
 const index = () => {
-    const bra = <br></br>
+ 
     return (
         <div className='index-view'>
             <Card 
@@ -35,9 +35,9 @@ const index = () => {
                 />
       
                 <Card 
-                img="Joy.JPG" 
-                height="285px" 
-                width="260px"
+                img="joy.jpeg" 
+                height="205px" 
+                width="300px"
                 altName='Santas slegh'
                 price='$160'
                 dimensions='H 34in x W 46in'
@@ -89,8 +89,8 @@ const index = () => {
                 description='depiction of the nativity painted as stained glass'
                 />
                 <Card 
-                img="tangeled-elves.JPG" 
-                height="285px" 
+                img="tangeled-elves.jpeg" 
+                height="350px" 
                 width="260px"
                 altName='Santas slegh'
                 price='$65'
@@ -98,8 +98,8 @@ const index = () => {
                 description='Its santas sligh with toys in it'
                 />
                 <Card 
-                img="tangled-snowmen.JPG" 
-                height="285px" 
+                img="tangled-snowman.jpeg" 
+                height="350px" 
                 width="260px"
                 altName='Santas slegh'
                 price='$65'
@@ -107,8 +107,8 @@ const index = () => {
                 description='Its santas sligh with toys in it'
                 />
                 <Card 
-                img="Young-nativaty.png" 
-                height="290px" 
+                img="Young-nativaty.jpeg" 
+                height="225px" 
                 width="290px"
                 altName='Santas slegh'
                 price='$100'
