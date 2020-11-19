@@ -107,9 +107,9 @@ const index = () => {
                 description='Its santas sligh with toys in it'
                 />
                 <Card 
-                img="Young-nativaty.jpeg" 
-                height="225px" 
-                width="290px"
+                img="young-nativaty.png" 
+                height="250px" 
+                width="300px"
                 altName='Young nativity'
                 price='$100'
                 dimensions='10ft X 10ft'
