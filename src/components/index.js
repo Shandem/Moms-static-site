@@ -17,6 +17,7 @@ const index = () => {
                 />
             <Card 
                 img="Santa-sleig.JPG" 
+                name='Santa&#39;s sleigh'
                 height="285px" 
                 width="260px"
                 altName='Santas sleigh'
@@ -25,7 +26,8 @@ const index = () => {
                 description='Santa&#39;s sleigh w/ Bag of toys'
                 />
             <Card 
-                img="Caroling-Santa.JPG" 
+                img="Caroling-Santa.JPG"
+                name='Caroling Santa'
                 height="285px" 
                 width="260px"
                 altName='Caroling Santa'
@@ -36,6 +38,7 @@ const index = () => {
       
                 <Card 
                 img="joy.jpeg" 
+                name='Joy'
                 height="205px" 
                 width="300px"
                 altName='Santas slegh'
@@ -45,6 +48,7 @@ const index = () => {
                 />
                  <Card 
                 img="Raindeer-list.JPG" 
+                name='Raindeer w/Santa&#39;s list'
                 height="285px" 
                 width="260px"
                 altName='Santas slegh'
@@ -54,6 +58,7 @@ const index = () => {
                 />
                  <Card 
                 img="raindeer-wish.JPG" 
+                name='Raindeer Marry Christmas'
                 height="285px" 
                 width="260px"
                 altName='Santas slegh'
@@ -63,6 +68,7 @@ const index = () => {
                 />
                  <Card 
                 img="Santa-countDown.JPG" 
+                name='Santa Countdown'
                 height="285px" 
                 width="260px"
                 altName='Santas slegh'
@@ -72,15 +78,17 @@ const index = () => {
                 />
                 <Card 
                 img="Santa-wreef.JPG" 
+                name='Santa wreath'
                 height="285px" 
                 width="260px"
-                altName='Santas slegh'
+                altName='Santas wreath'
                 price='$110'
                 dimensions='10ft X 10ft'
                 description='Santa wearing a wreath'
                 />
                 <Card 
                 img="Stain-glass.png" 
+                name='Stained Glass'
                 height="390px" 
                 width="250px"
                 altName='Santas slegh'
@@ -90,24 +98,29 @@ const index = () => {
                 />
                 <Card 
                 img="tangeled-elves.jpeg" 
+                name='Tangled Elves'
                 height="350px" 
                 width="260px"
                 altName='Santas slegh'
                 price='$65'
                 dimensions='H 56in x W 30in'
-                description='Its santas sligh with toys in it'
+                description='Elves Standing on each others head putting up Christmas lights 
+                &#39;included&#39;'
                 />
                 <Card 
                 img="tangled-snowman.jpeg" 
+                name='Tangled Snowman'
                 height="350px" 
                 width="260px"
                 altName='Santas slegh'
                 price='$65'
                 dimensions='H 56in x W 30in'
-                description='Its santas sligh with toys in it'
+                description='Snowmen Standing on each others head putting up Christmas lights 
+                &#39;included&#39;'
                 />
                 <Card 
                 img="young-nativaty.png" 
+                name='Young Nativity'
                 height="250px" 
                 width="300px"
                 altName='Young nativity'
