@@ -5,7 +5,7 @@ import './welcome.scss'
 const welcome = () => {
     return (
         <div className='welcome'> 
-        <h1 className='Title'>Gaby's Craft Corner</h1>
+        <h1 className='Title'>Gaby's Crafty Things</h1>
         <div className="snowflake-container">
             <Snowflake height='50px' width='50px'/>
             <Snowflake height='50px' width='50px'/>
