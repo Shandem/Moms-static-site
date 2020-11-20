@@ -52,7 +52,7 @@ const index = () => {
                 height="285px" 
                 width="260px"
                 altName='Santas slegh'
-                price='$65'
+                price='$50'
                 dimensions='H 34in x W 41in'
                 description='Raindeer holding Santa&#39;s list for toys.'
                 />
