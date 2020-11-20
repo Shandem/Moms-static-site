@@ -9,7 +9,7 @@ const index = () => {
             <Card 
                 img="group-shot.JPG" 
                 height="285px" 
-                width="260px"
+                width="350px"
                 altName='Santas slegh'
                 price=''
                 dimensions=''
