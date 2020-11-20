@@ -24,8 +24,26 @@ const orderForm = () => {
           <div className="orderingInstructions">
               <h3>
                   Order Instructions
+
               </h3>
+            <p>
+                For any questions or concerns or if you would like to put in your order,
+                you can use the message box next to this or call/text 831-809-9374
+                Please Include 
+                <ul>
+                    <li>
+                    Name of the items
+                    </li>
+                    <li>
+                    Your contact information.
+                    </li>
+                    <li>
+                    Delivery included with most orders.
+                    </li>
+                </ul>
+            </p>
               
+
           </div>
             <div className="orderForm">
                 
