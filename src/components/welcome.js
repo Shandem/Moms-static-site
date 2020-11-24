@@ -5,6 +5,11 @@ import './welcome.scss'
 const welcome = () => {
     return (
         <div className='welcome'> 
+         <img src={process.env.PUBLIC_URL + '/gaby.png'} 
+                className='gaby'
+                alt='Gaby' 
+                height='200px' 
+                width='250px'/>
         <h1 className='Title'>Gaby's Crafty Things</h1>
         <div className="snowflake-container">
             <Snowflake height='50px' width='50px'/>
