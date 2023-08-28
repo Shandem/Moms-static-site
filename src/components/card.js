@@ -10,7 +10,7 @@ const card = (props) => {
                 width={ props.width }/>
             <div className="info">
                 <h3 className="name">Name: { props.name }</h3>
-               {/* <h4 className='price'>Price:{ props.price }</h4> */}
+               {/* <h4 className='price'>Price:{ props.price }</h4> leave for later */}
                 <p className='dimensions'> <span> Dimensions:</span> { props.dimensions }</p>
                 <p className='description'> <span> Description: </span>{ props.description }</p>
             </div>
