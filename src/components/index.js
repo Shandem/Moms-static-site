@@ -128,6 +128,57 @@ const index = () => {
                 dimensions='10ft X 10ft'
                 description='child depiction of the nativity'
                 />
+                <Card 
+                img="CandyCanes.png" 
+                name='Candy canes'
+                height="250px" 
+                width="300px"
+                altName='Candy canes'
+                price=''
+                dimensions=''
+                description='large candy canes with green bow for your holiday decorations'
+                />
+                 <Card 
+                img="Santa'sPuzzleTrain.png" 
+                name="Santa\'s Puzzle Train"
+                height="250px" 
+                width="300px"
+                altName="Santa\'s Puzzle Train"
+                price=''
+                dimensions=''
+                description='Santa holiday train cut into puzzle pieces with easy assembly. Hand painted and ready for your front yard.'
+                />
+                 <Card 
+                img="SantaSleigh.png" 
+                name="Santa\'s Sleigh"
+                height="250px" 
+                width="300px"
+                altName="Santa\'s Puzzle Sleigh"
+                price=''
+                dimensions=''
+                description="Santa\'s Puzzle Sleigh Matches the style of the puzzle Train. Grab both pieces for the full set!"
+                />
+           
+               <Card 
+                img="ReindeerCarolingWithSanta.png" 
+                name="Reindeer Caroling With Santa"
+                height="250px" 
+                width="300px"
+                altName="Reindeer Caroling With Santa"
+                price=''
+                dimensions=''
+                description="Two Reindeer Caroling With Santa"
+                />
+                <Card 
+                img="ReindeerStandingOnSanta.png" 
+                name="Reindeer Standing On Santa"
+                height="250px" 
+                width="300px"
+                altName="Reindeer Standing On Santa"
+                price=''
+                dimensions=''
+                description="Reindeer Standing On Santa with Big Puppy Dog Eyes"
+                />
         </div>
     );
 }
